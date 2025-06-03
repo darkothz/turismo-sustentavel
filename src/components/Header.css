@@ -1,0 +1,44 @@
+.header {
+  background-color: #14532d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.titulo {
+  font-size: 24px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.icone {
+  font-size: 26px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
